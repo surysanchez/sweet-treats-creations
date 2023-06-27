@@ -1,0 +1,7 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    border-radius: 10px;
+    gap: 5%;
+    border-style:hidden;
+  }

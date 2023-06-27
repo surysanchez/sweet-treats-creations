@@ -1,0 +1,26 @@
+*{
+  /* font-family: 'Ranchers', cursive; */
+  font-family: 'Luckiest Guy', cursive;
+  color: black;
+}
+
+.img{
+  background: cover;
+  height: 45vh;
+  width: 55vw;
+}
+@media screen and (max-width: 500px){
+  .treat-card{
+    height: 0vh;
+    width: 30vw;
+  }
+  .img{
+    background: cover;
+    height: 25vh;
+    width: 55vw;
+  }
+}
+
+cards-container{
+  margin-top: 5%;
+}
